@@ -23,5 +23,5 @@ module "logarchive" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "security"
 }
