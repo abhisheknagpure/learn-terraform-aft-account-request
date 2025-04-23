@@ -2,7 +2,7 @@ module "management_account" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "s1-org-dev@sentinelone.com
+    AccountEmail              = "s1-org-dev@sentinelone.com"
     AccountName               = "s1-org-dev@sentinelone.com"
     ManagedOrganizationalUnit = "Root"
     SSOUserEmail              = "abhishek.nagpure@sentinelone.com"
